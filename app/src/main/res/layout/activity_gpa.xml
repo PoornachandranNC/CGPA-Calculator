@@ -1,0 +1,98 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+
+        <EditText
+            android:id="@+id/numSubjects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="name"
+            android:hint="@string/hint_num_subjects"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:padding="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="25dp">
+
+            <EditText
+                android:id="@+id/credits"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:autofillHints="creditCardNumber"
+                android:hint="@string/hint_credits"
+                android:inputType="numberDecimal"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                 />
+
+            <EditText
+                android:id="@+id/gradePoint"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:autofillHints="name"
+                android:hint="@string/hint_grade_point"
+                android:inputType="numberDecimal"
+                android:layout_weight="1"
+                android:textAlignment="center"/>
+        </LinearLayout>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="25dp">
+            <Button
+                android:id="@+id/addSubject"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_weight="1"
+                android:text="@string/button_add_subject" />
+
+            <Button
+                android:id="@+id/calculateGPA"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_weight="1"
+                android:text="@string/button_calculate_gpa" />
+    </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:paddingTop="16dp"
+            android:text=""
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/owner"
+            android:textAlignment="center"
+            android:paddingBottom="16dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CGPA Calculator</string>
+    <string name="hint_num_subjects">Enter total number of subjects</string>
+    <string name="hint_credits">Enter subject\'s credit</string>
+    <string name="hint_grade_point">Enter grade (0-10)</string>
+    <string name="button_add_subject">Add Subject</string>
+    <string name="button_calculate_gpa">Calculate GPA</string>
+    <string name="gpa_result">Your GPA is: %.2f</string>
+    <string name="CGPA">Calculate CGPA</string>
+    <string name="GPA">Calculate GPA</string>
+    <string name="hint_num_sem">Sem count</string>
+    <string name="subject">Subject count</string>
+    <string name="hint_sem_credits">Enter sem credits</string>
+    <string name="hint_sem_grade">Enter sem grades</string>
+    <string name="button_add_sem">Add Sem</string>
+    <string name="button_calculate_cgpa">Calculate CGPA</string>
+    <string name="owner">By POORNACHANDRAN</string>
+    <string name="ownerCGPA">By POORNACHANDRAN</string>
+</resources>
